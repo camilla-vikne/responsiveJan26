@@ -1,0 +1,55 @@
+html {
+  font-size: 20px;
+}
+
+.measurements {
+  height: 400px;
+  width: 400px;
+  background-color: lightcoral;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  margin: 10px;
+}
+#px {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+#ch {
+  background-color: red;
+  font-size: 20px;
+  width: 10ch;
+  height: 10ch;
+}
+#em {
+  background-color: green;
+  font-size: 20px;
+  width: 5em;
+  height: 5em;
+}
+#rem {
+  background-color: orange;
+  width: 5rem;
+  height: 5rem;
+}
+#percentage {
+  background-color: maroon;
+  height: 25%;
+  width: 25%;
+}
+#vh {
+  background-color: darkblue;
+  height: 20vh;
+}
+#vw {
+  background-color: darkslategrey;
+  width: 100vw;
+}
+#maxwidth {
+  background-color: indigo;
+  min-height: 100px;
+  min-width: 30%;
+}
