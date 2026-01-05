@@ -1,7 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 20px;
 }
-
+figure {
+  background-color: rgb(201, 47, 201);
+  margin-bottom: 700px;
+  height: 500px;
+  width: 800px;
+  text-align: center;
+}
+.images {
+  height: 50dvh;
+  width: 800px;
+  background-color: aquamarine;
+  margin-bottom: 200px;
+  /*
+  padding: 100px;
+  border: 20px solid green;
+  */
+}
+/*
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: maroon;
+}
+  */
 .measurements {
   height: 400px;
   width: 400px;

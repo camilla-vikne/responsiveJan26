@@ -11,6 +11,32 @@
       <h1>Responsive design and images</h1>
     </header>
     <main>
+      <figure>
+        <img
+          src="./assets/tomoko-uji-kxvn1ogpTtE-unsplash.jpg"
+          alt="Pink flowers against a white background"
+        />
+        <figcaption>A beautiful field of flowers.</figcaption>
+      </figure>
+      <section class="images">
+        <!-- <div class="box"></div> -->
+        <img
+          src="./assets/andrew-small-EfhCUc_fjrU-unsplash.jpg"
+          alt="A pink flower"
+          width="150px"
+        />
+        <picture>
+          <source
+            media="(max-width:500px)"
+            srcset="./assets/dorne-marting-WJJ3xP5Z_vw-unsplash.jpg"
+          />
+          <source
+            media="(max-width:700px)"
+            srcset="./assets/irina-iriser-mNz9Pa3tz34-unsplash.jpg"
+          />
+          <img src="./assets/roonz-nl-ATgfRqpFfFI-unsplash.jpg" alt="Tulip" />
+        </picture>
+      </section>
       <section class="measurements">
         <div id="px"><p>Pixel</p></div>
         <div id="ch">
